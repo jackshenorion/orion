@@ -1,18 +1,14 @@
 package com.shenpinyi.algorithms.chapter22.excersice2216;
 
-<<<<<<< HEAD
 import com.shenpinyi.algorithms.chapter22.AdjacentMatrixGraph;
 import com.shenpinyi.algorithms.chapter22.Vertex;
 
 import java.util.List;
 
-=======
->>>>>>> dc3a43cecaa516033d9a02e119e17d1c2334b919
 /**
  * Created by sj on 2017/3/5.
  */
 public class UniversalSinkFinder {
-<<<<<<< HEAD
 
     private AdjacentMatrixGraph<String, Integer> graph;
     private Object[][] matrix;
@@ -85,6 +81,4 @@ public class UniversalSinkFinder {
     }
 
 
-=======
->>>>>>> dc3a43cecaa516033d9a02e119e17d1c2334b919
 }

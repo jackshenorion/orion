@@ -3,7 +3,6 @@ package com.shenpinyi.algorithms.chapter22;
 /**
  * Created by sj on 2017/3/4.
  */
-<<<<<<< HEAD
 public class Edge <T> {
     private int source;
     private int target;
@@ -35,7 +34,4 @@ public class Edge <T> {
         this.cost = cost;
         return this;
     }
-=======
-public class Edge {
->>>>>>> dc3a43cecaa516033d9a02e119e17d1c2334b919
 }

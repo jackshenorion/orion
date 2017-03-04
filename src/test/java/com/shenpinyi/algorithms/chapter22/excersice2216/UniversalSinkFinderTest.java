@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.shenpinyi.algorithms.chapter22.excersice2216;
 
 import com.shenpinyi.algorithms.chapter22.Edge;
@@ -8,15 +7,12 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-=======
->>>>>>> dc3a43cecaa516033d9a02e119e17d1c2334b919
 import static org.junit.Assert.*;
 
 /**
  * Created by sj on 2017/3/5.
  */
 public class UniversalSinkFinderTest {
-<<<<<<< HEAD
     @Test
     public void find() throws Exception {
         System.out.print(
@@ -46,7 +42,5 @@ public class UniversalSinkFinderTest {
                                 .buildAdjacentMatrixGraph())
                         .find());
     }
-=======
->>>>>>> dc3a43cecaa516033d9a02e119e17d1c2334b919
 
 }
