@@ -1,5 +1,6 @@
 package com.shenpinyi.algorithms.chapter22;
 
+<<<<<<< HEAD
 import java.util.List;
 
 public class AdjacentMatrixGraph <V, E> {
@@ -42,4 +43,10 @@ public class AdjacentMatrixGraph <V, E> {
         }
         return builder.toString();
     }
+=======
+/**
+ * Created by sj on 2017/3/4.
+ */
+public class AdjacentMatrixGraph {
+>>>>>>> dc3a43cecaa516033d9a02e119e17d1c2334b919
 }
