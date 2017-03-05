@@ -22,6 +22,9 @@ public class GraphBuilder <V, E> {
         Object[][] edgesMatrix = new Object[vertexs.size()][vertexs.size()];
         for(Edge e : edges) {
             edgesMatrix[e.getSource()][e.getTarget()] = e.getCost();
+            if (!e.isHasDirection()) {
+                edgesMatrix[e.getTarget()][e.getSource()] = e.getCost();
+            }
         }
         graph.setVertexs(vertexs);
         graph.setAdjacentMatrix(edgesMatrix);
@@ -38,6 +41,9 @@ public class GraphBuilder <V, E> {
 
         for(Edge e : edges) {
             table.get(e.getSource()).add(new AdjacentTableGraphNode().setVertexIndex(e.getTarget()).setCost(e.getCost()));
+            if (!e.isHasDirection()) {
+                table.get(e.getTarget()).add(new AdjacentTableGraphNode().setVertexIndex(e.getSource()).setCost(e.getCost()));
+            }
         }
         graph.setVertexs(vertexs);
         graph.setAdjacentTable(table);

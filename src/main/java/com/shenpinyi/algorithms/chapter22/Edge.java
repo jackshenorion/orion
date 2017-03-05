@@ -7,6 +7,7 @@ public class Edge <T> {
     private int source;
     private int target;
     private T cost;
+    private boolean hasDirection = true;
 
     public int getSource() {
         return source;
@@ -32,6 +33,15 @@ public class Edge <T> {
 
     public Edge setCost(T cost) {
         this.cost = cost;
+        return this;
+    }
+
+    public boolean isHasDirection() {
+        return hasDirection;
+    }
+
+    public Edge setHasDirection(boolean hasDirection) {
+        this.hasDirection = hasDirection;
         return this;
     }
 }
