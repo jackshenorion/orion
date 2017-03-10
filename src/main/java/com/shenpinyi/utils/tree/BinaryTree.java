@@ -8,7 +8,7 @@ import java.util.List;
  * @param <V> the type of value in this tree
  */
 public class BinaryTree <K, V> {
-    Entry<K, V> root;
+    public Entry<K, V> root;
 
     /**
      * use list of nodes in pre-order to build a binary tree
