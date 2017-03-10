@@ -1,74 +1,52 @@
 package com.shenpinyi.utils.tree;
 
-public class BinaryTree <T extends Comparable<T>> {
-    BinaryTreeNode<T> root;
+import java.util.List;
 
-    public BinaryTree() {
+/**
+ *
+ * @param <K> the type of keys in this tree
+ * @param <V> the type of value in this tree
+ */
+public class BinaryTree <K, V> {
+    Entry<K, V> root;
+
+    /**
+     * use list of nodes in pre-order to build a binary tree
+     *
+     * @param nodes
+     */
+    public BinaryTree(List<Entry<K, V>> nodes) {
+        if (nodes.size() == 0 || nodes.get(0) == null) {
+            return;
+        }
+        root = nodes.get(0);
+        buildTree(root, 1, nodes);
     }
 
-    public BinaryTreeNode<T> getRoot() {
-        return root;
+    private int buildTree(Entry<K, V> tree, int next, List<Entry<K, V>> nodes) {
+        if (next == nodes.size()) {
+            return next;
+        }
+
+        Entry left = nodes.get(next++);
+        if (left != null) {
+            tree.left = left;
+            left.parent = tree;
+            next = buildTree(left, next, nodes);
+        }
+
+        if (next == nodes.size()) {
+            return next;
+        }
+
+        Entry right = nodes.get(next++);
+        if (right != null) {
+            tree.right = right;
+            right.parent = tree;
+            next = buildTree(right, next, nodes);
+        }
+
+        return next;
     }
 
-    public BinaryTree add(T value) {
-        if (root == null) {
-            root = new BinaryTreeNode<>().setValue(value).setLeft(null).setRight(null);
-        } else {
-            add(root, value);
-        }
-        return this;
-    }
-
-    private BinaryTree add(BinaryTreeNode<T> subRoot, T value) {
-        int compareResult = value.compareTo(subRoot.getValue());
-
-        if (compareResult == 0) {
-            return this;
-        }
-
-        if (compareResult < 0 && subRoot.left != null){
-            add(subRoot.left, value);
-        } else if (compareResult > 0 && subRoot.right != null) {
-            add(subRoot.right, value);
-        } else if ( compareResult < 0 && subRoot.left == null) {
-            subRoot.left = new BinaryTreeNode<>().setValue(value).setLeft(null).setRight(null);
-        } else {
-            subRoot.right = new BinaryTreeNode<>().setValue(value).setLeft(null).setRight(null);
-        }
-
-        return this;
-    }
-
-    public static class BinaryTreeNode <T> {
-        T value;
-        BinaryTreeNode<T> left;
-        BinaryTreeNode<T> right;
-
-        public T getValue() {
-            return value;
-        }
-
-        public BinaryTreeNode setValue(T value) {
-            this.value = value;
-            return this;
-        }
-
-        public BinaryTreeNode<T> getLeft() {
-            return left;
-        }
-
-        public BinaryTreeNode setLeft(BinaryTreeNode<T> left) {
-            this.left = left;
-            return this;
-        }
-
-        public BinaryTreeNode<T> getRight() {
-            return right;
-        }
-
-        public BinaryTreeNode setRight(BinaryTreeNode<T> right) {
-            this.right = right;
-            return this;
-        }
-    }
 }

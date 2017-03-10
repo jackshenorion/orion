@@ -1,14 +1,15 @@
 package com.shenpinyi.microsoft.questionFive;
 
-import com.shenpinyi.utils.tree.BinaryTree;
+import com.shenpinyi.utils.tree.BinarySearchTree;
+import com.shenpinyi.utils.tree.SimpleEntry;
 
 public class FindBinaryTreeMinPath {
 
-    public static void findMinPath(BinaryTree<Integer> tree, int pathLength) {
+    public static void findMinPath(BinarySearchTree<Integer> tree, int pathLength) {
         findMinPath(tree.getRoot(), pathLength, new int[10], 0);
     }
 
-    private static void findMinPath(BinaryTree.BinaryTreeNode<Integer> subRoot, int pathLength, int[] pathNodes, int pathCount) {
+    private static void findMinPath(SimpleEntry<Integer> subRoot, int pathLength, int[] pathNodes, int pathCount) {
         if (subRoot.getValue() > pathLength) {
             return;
         } else if (subRoot.getValue() == pathLength && subRoot.getLeft() == null && subRoot.getRight() == null) {
