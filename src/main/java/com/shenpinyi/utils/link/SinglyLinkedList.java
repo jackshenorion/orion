@@ -25,4 +25,15 @@ public class SinglyLinkedList <T> {
         }
         return null;
     }
+
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        SinglyLinkNode<T> node = head.getNext();
+        while (node != null) {
+            builder.append(node.getValue() + " ");
+            node = node.getNext();
+        }
+        builder.append(".");
+        return builder.toString();
+    }
 }
