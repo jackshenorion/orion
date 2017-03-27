@@ -1,6 +1,7 @@
 package com.shenpinyi.leecode.question133;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
@@ -24,8 +25,9 @@ public class Solution {
         while (queue.size() != 0) {
             UndirectedGraphNode vOld = queue.removeFirst();
             UndirectedGraphNode vNew = newNodes.get(vOld.label);
-            for (int i = 0; i < vOld.neighbors.size(); i++) {
-                UndirectedGraphNode uOld = vOld.neighbors.get(i);
+            Iterator<UndirectedGraphNode> iter = vOld.neighbors.iterator();
+            while (iter.hasNext()) {
+                UndirectedGraphNode uOld = iter.next();
                 UndirectedGraphNode uNew = newNodes.get(uOld.label);
 
                 if (uNew == null) { // white node
@@ -38,6 +40,46 @@ public class Solution {
             }
         }
         return newGraph;
+    }
+
+    public UndirectedGraphNode cloneGraph2(UndirectedGraphNode node) {
+        if (node == null) {
+            return null;
+        }
+
+        HashMap<Integer, UndirectedGraphNode> newNodes = new HashMap<>(2039, 0.5f);
+        LinkedList<UndirectedGraphNode> queue = new LinkedList<>();
+
+        // create the root node
+        UndirectedGraphNode newGraph = new UndirectedGraphNode(node.label);
+        queue.add(node);
+        newNodes.put(node.label, newGraph);
+
+        while (queue.size() != 0) {
+            UndirectedGraphNode vOld = queue.removeFirst();
+            UndirectedGraphNode vNew = newNodes.get(vOld.label);
+            Iterator<UndirectedGraphNode> iter = vOld.neighbors.iterator();
+            while (iter.hasNext()) {
+                UndirectedGraphNode uOld = iter.next();
+                UndirectedGraphNode uNew = newNodes.get(uOld.label);
+
+                if (uNew == null) { // white node
+                    uNew = new UndirectedGraphNode(uOld.label);
+                    newNodes.put(uNew.label, uNew);
+                    queue.add(uOld);
+                }
+
+                vNew.neighbors.add(uNew);
+            }
+        }
+        return newGraph;
+    }
+
+    public UndirectedGraphNode cloneGraph1(UndirectedGraphNode node) {
+        if (node == null) {
+            return null;
+        }
+        return unserialize(serialize(node));
     }
 
     public static String serialize(UndirectedGraphNode node) {
