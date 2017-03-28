@@ -39,23 +39,48 @@ public class Solution {
                 nums[length - i - 1] = temp;
             }
 
-            // find min
-            int m = length - 1;
+            // find min using binary search
             int temp = nums[k];
-            int min = -1;
+            int start = k + 1;
+            int end = length - 1;
 
-            while (m > k) {
-                if (min == -1 && nums[m] > temp) {
-                    min = m;
-                } else if (nums[m] > temp && nums[m] <= nums[min]) {
-                    min = m;
+            while (end > start) {
+                int midLower = (start + end) >> 1;
+                int midHigher = midLower + 1;
+                if (nums[midLower] > temp) {
+                    end = midLower;
+                } else {
+                    start = midHigher;
                 }
-                m --;
             }
-
+            int ceiling = start;
             // swap k, min
-            nums[k] = nums[min];
-            nums[min] = temp;
+            nums[k] = nums[ceiling];
+            nums[ceiling] = temp;
         }
+    }
+
+    /**
+     * find the first number from index i to index j that greater than x
+     * @param a is ascend ordered
+     * @param i
+     * @param j
+     * @param x
+     * @return
+     */
+    private int binarySearch(int a[], int i, int j, int x) {
+        int start = i;
+        int end = j;
+
+        while (end > start) {
+            int midLower = (start + end) >> 1;
+            int midHigher = midLower + 1;
+            if (a[midLower] > x) {
+                end = midLower;
+            } else {
+                start = midHigher;
+            }
+        }
+        return start;
     }
 }
