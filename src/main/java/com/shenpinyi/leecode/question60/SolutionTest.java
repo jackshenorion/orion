@@ -11,13 +11,13 @@ public class SolutionTest {
 
     @Test
     public void testGetPermutation() throws Exception {
-        System.out.println(new Solution().getPermutation(3, 0));
-        System.out.println(new Solution().getPermutation(3, 1));
-        System.out.println(new Solution().getPermutation(3, 2));
-        System.out.println(new Solution().getPermutation(3, 3));
-        System.out.println(new Solution().getPermutation(3, 4));
-        System.out.println(new Solution().getPermutation(3, 5));
-        System.out.println(new Solution().getPermutation(3, 6));
+        System.out.println(new Solution().getPermutation(4, 0));
+        System.out.println(new Solution().getPermutation(4, 1));
+        System.out.println(new Solution().getPermutation(4, 2));
+        System.out.println(new Solution().getPermutation(4, 3));
+        System.out.println(new Solution().getPermutation(4, 4));
+        System.out.println(new Solution().getPermutation(4, 5));
+        System.out.println(new Solution().getPermutation(4, 6));
         System.out.println(new Solution().getPermutation(9, 100));
     }
 }
