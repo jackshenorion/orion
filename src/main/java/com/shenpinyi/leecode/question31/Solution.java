@@ -60,27 +60,4 @@ public class Solution {
         }
     }
 
-    /**
-     * find the first number from index i to index j that greater than x
-     * @param a is ascend ordered
-     * @param i
-     * @param j
-     * @param x
-     * @return
-     */
-    private int binarySearch(int a[], int i, int j, int x) {
-        int start = i;
-        int end = j;
-
-        while (end > start) {
-            int midLower = (start + end) >> 1;
-            int midHigher = midLower + 1;
-            if (a[midLower] > x) {
-                end = midLower;
-            } else {
-                start = midHigher;
-            }
-        }
-        return start;
-    }
 }
