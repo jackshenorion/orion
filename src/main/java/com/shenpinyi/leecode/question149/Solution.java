@@ -29,7 +29,7 @@ public class Solution {
      * 3 因为浮点数有精度问题, 所以使用GCD求解二元一次方程的最小系数(建立在点坐标都是整数的基础上),这样同一条线的Line对象才能具有相同的
      * 系数,有相同的hashcode,这样才可以使用hashMap来组织Line,快速的找到相同的Line以便计数
      * 4 HashMap的hashcode算法必须要保证equals方法认为相同的对象有相同的hashcode,这样它们才会在一个bucket里面,否则equals就没意义了
-     * 
+     *
      * @param points
      * @return
      */
