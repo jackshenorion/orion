@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef81413-8482-4634-9289-fce82d159261" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question218/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question299/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/array/ArrayUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question218/SolutionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question299/SolutionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question99/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question99/SolutionTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithms.iws" />
@@ -31,64 +30,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question198/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question213/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question299/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question218/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question99/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62030077">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding>
-                <element signature="e#1949#1950#0" expanded="true" />
-                <element signature="e#2009#2010#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.46037737">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question218/SolutionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question99/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/tree/Entry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/array/ArrayUtils.java">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -99,7 +99,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#0#17839#0" expanded="false" />
+                <element signature="e#17760#17761#0" expanded="false" />
+                <element signature="e#17835#17836#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +113,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,17 +125,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question198/SolutionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,11 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question145/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question145/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question15/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question15/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question372/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question372/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question109/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question109/TreeNode.java" />
@@ -207,6 +200,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/array/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question218/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question218/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question99/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question99/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question99/Solution.java" />
       </list>
     </option>
   </component>
@@ -225,7 +223,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="978" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -252,6 +250,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,7 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="leecode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,19 +385,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="leecode" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="array" />
+              <option name="myItemId" value="question99" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shenpinyi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leecode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,11 +440,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.shenpinyi.leecode.question99" />
       <recent name="com.shenpinyi.leecode.question218" />
       <recent name="com.shenpinyi.leecode.question299" />
       <recent name="com.shenpinyi.leecode.question213" />
       <recent name="com.shenpinyi.leecode.question198" />
-      <recent name="com.shenpinyi.leecode.question14" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shenpinyi.utils" />
@@ -427,111 +459,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.testGetSkyline">
-    <configuration default="false" name="SolutionTest.testRob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shenpinyi.leecode.question198.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question198" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question198.SolutionTest" />
-      <option name="METHOD_NAME" value="testRob" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SolutionTest.testRob (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shenpinyi.leecode.question213.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question213" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question213.SolutionTest" />
-      <option name="METHOD_NAME" value="testRob" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SolutionTest.testGetHint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shenpinyi.leecode.question299.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question299" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question299.SolutionTest" />
-      <option name="METHOD_NAME" value="testGetHint" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SolutionTest.testDiscrete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.shenpinyi.leecode.question218.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Algorithms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question218" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question218.SolutionTest" />
-      <option name="METHOD_NAME" value="testDiscrete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest.testRecoverTree3">
     <configuration default="false" name="SolutionTest.testGetSkyline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -545,6 +473,110 @@
       <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question218" />
       <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question218.SolutionTest" />
       <option name="METHOD_NAME" value="testGetSkyline" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SolutionTest.testRecoverTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shenpinyi.leecode.question99.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question99" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question99.SolutionTest" />
+      <option name="METHOD_NAME" value="testRecoverTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SolutionTest.testRecoverTree1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shenpinyi.leecode.question99.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question99" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question99.SolutionTest" />
+      <option name="METHOD_NAME" value="testRecoverTree1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SolutionTest.testRecoverTree2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shenpinyi.leecode.question99.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question99" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question99.SolutionTest" />
+      <option name="METHOD_NAME" value="testRecoverTree2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SolutionTest.testRecoverTree3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.shenpinyi.leecode.question99.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.leecode.question99" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.leecode.question99.SolutionTest" />
+      <option name="METHOD_NAME" value="testRecoverTree3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -962,19 +994,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRob" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRob (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.testGetHint" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.testDiscrete" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.testGetSkyline" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.testGetSkyline" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.testGetSkyline" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.testDiscrete" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.testGetHint" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRob (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRob" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree3" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SolutionTest.testRecoverTree1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SolutionTest.testGetSkyline" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -1046,67 +1078,70 @@
       <workItem from="1491972297230" duration="1904000" />
       <workItem from="1491993482065" duration="6554000" />
       <workItem from="1492079195303" duration="49114000" />
-      <workItem from="1492335087916" duration="22418000" />
+      <workItem from="1492335087916" duration="22484000" />
+      <workItem from="1492495211621" duration="684000" />
+      <workItem from="1492509147592" duration="11595000" />
+      <workItem from="1492598668260" duration="9454000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 34m 44s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 03m 20s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 37m 02s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 14m 56s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 38m 57s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 16m 58s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 39m 12s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 18m 44s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 41m 41s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 34m 28s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 43m 47s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 34m 40s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 45m 24s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 35m 09s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 49m 49s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 37m 52s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.17 at 23h 49m 53s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 39m 34s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_testGetSkyline - 2017.04.18 at 09h 30m 06s.xml">
-      <configuration name="SolutionTest.testGetSkyline" configurationId="JUnit" />
+    <history-entry file="SolutionTest_testRecoverTree3 - 2017.04.19 at 23h 39m 52s.xml">
+      <configuration name="SolutionTest.testRecoverTree3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="304591000" />
+    <option name="totallyTimeSpent" value="326390000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="978" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="979" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31860465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31755197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3488372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35191637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21978022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21978022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47790697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6144019" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1167,7 +1202,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="64" />
+      <option name="time" value="115" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1176,102 +1211,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question322/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question322/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question56/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26981#0" expanded="false" />
-            <element signature="e#4449#4450#0" expanded="false" />
-            <element signature="e#4506#4507#0" expanded="false" />
-            <element signature="e#4990#4991#0" expanded="false" />
-            <element signature="e#5047#5048#0" expanded="false" />
-            <element signature="e#7627#7628#0" expanded="false" />
-            <element signature="e#7665#7666#0" expanded="false" />
-            <element signature="e#9661#9662#0" expanded="false" />
-            <element signature="e#9693#9694#0" expanded="false" />
-            <element signature="e#9883#9884#0" expanded="false" />
-            <element signature="e#9921#9922#0" expanded="false" />
-            <element signature="e#11802#11803#0" expanded="false" />
-            <element signature="e#11849#11850#0" expanded="false" />
-            <element signature="e#13024#13025#0" expanded="false" />
-            <element signature="e#13062#13063#0" expanded="false" />
-            <element signature="e#13102#13103#0" expanded="false" />
-            <element signature="e#13144#13145#0" expanded="false" />
-            <element signature="e#13579#13580#0" expanded="false" />
-            <element signature="e#13616#13617#0" expanded="false" />
-            <element signature="e#13654#13655#0" expanded="false" />
-            <element signature="e#13693#13694#0" expanded="false" />
-            <element signature="e#22195#22196#0" expanded="false" />
-            <element signature="e#22251#22252#0" expanded="false" />
-            <element signature="e#24063#24064#0" expanded="false" />
-            <element signature="e#24101#24102#0" expanded="false" />
-            <element signature="e#24472#24473#0" expanded="false" />
-            <element signature="e#24509#24510#0" expanded="false" />
-            <element signature="e#24792#24793#0" expanded="false" />
-            <element signature="e#24849#24850#0" expanded="false" />
-            <element signature="e#25083#25084#0" expanded="false" />
-            <element signature="e#25142#25143#0" expanded="false" />
-            <element signature="e#25382#25383#0" expanded="false" />
-            <element signature="e#25443#25444#0" expanded="false" />
-            <element signature="e#25485#25486#0" expanded="false" />
-            <element signature="e#25550#25551#0" expanded="false" />
-            <element signature="e#25740#25741#0" expanded="false" />
-            <element signature="e#25780#25781#0" expanded="false" />
-            <element signature="e#26007#26008#0" expanded="false" />
-            <element signature="e#26069#26070#0" expanded="false" />
-            <element signature="e#26442#26443#0" expanded="false" />
-            <element signature="e#26496#26497#0" expanded="false" />
-            <element signature="e#26798#26799#0" expanded="false" />
-            <element signature="e#26845#26846#0" expanded="false" />
-            <element signature="e#26903#26904#0" expanded="false" />
-            <element signature="e#26977#26978#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question56/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question215/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question373/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1311,10 +1250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.222222">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#1498#1499#0" expanded="false" />
-            <element signature="e#1552#1553#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,7 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +1320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,9 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1406,7 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,74 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="421" column="25" selection-start-line="421" selection-start-column="25" selection-end-line="421" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#92217#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5367#5368#0" expanded="false" />
-            <element signature="e#5448#5449#0" expanded="false" />
-            <element signature="e#5875#5876#0" expanded="false" />
-            <element signature="e#5956#5957#0" expanded="false" />
-            <element signature="e#6491#6492#0" expanded="false" />
-            <element signature="e#6572#6573#0" expanded="false" />
-            <element signature="e#7218#7219#0" expanded="false" />
-            <element signature="e#7300#7301#0" expanded="false" />
-            <element signature="e#7835#7836#0" expanded="false" />
-            <element signature="e#7917#7918#0" expanded="false" />
-            <element signature="e#8525#8526#0" expanded="false" />
-            <element signature="e#8607#8608#0" expanded="false" />
-            <element signature="e#9016#9017#0" expanded="false" />
-            <element signature="e#9058#9059#0" expanded="false" />
-            <element signature="e#9571#9572#0" expanded="false" />
-            <element signature="e#9613#9614#0" expanded="false" />
-            <element signature="e#10333#10334#0" expanded="false" />
-            <element signature="e#10414#10415#0" expanded="false" />
-            <element signature="e#11119#11120#0" expanded="false" />
-            <element signature="e#11200#11201#0" expanded="false" />
-            <element signature="e#11999#12000#0" expanded="false" />
-            <element signature="e#12082#12083#0" expanded="false" />
-            <element signature="e#14073#14074#0" expanded="false" />
-            <element signature="e#14114#14115#0" expanded="false" />
-            <element signature="e#17181#17182#0" expanded="false" />
-            <element signature="e#17264#17265#0" expanded="false" />
-            <element signature="e#18056#18057#0" expanded="false" />
-            <element signature="e#18138#18139#0" expanded="false" />
-            <element signature="e#32010#32011#0" expanded="false" />
-            <element signature="e#32095#32096#0" expanded="false" />
-            <element signature="e#45577#45578#0" expanded="false" />
-            <element signature="e#45622#45623#0" expanded="false" />
-            <element signature="e#46227#46228#0" expanded="false" />
-            <element signature="e#46266#46267#0" expanded="false" />
-            <element signature="e#46871#46872#0" expanded="false" />
-            <element signature="e#46910#46911#0" expanded="false" />
-            <element signature="e#47714#47715#0" expanded="false" />
-            <element signature="e#47763#47764#0" expanded="false" />
-            <element signature="e#48572#48573#0" expanded="false" />
-            <element signature="e#48621#48622#0" expanded="false" />
-            <element signature="e#49043#49044#0" expanded="false" />
-            <element signature="e#49082#49083#0" expanded="false" />
-            <element signature="e#49505#49506#0" expanded="false" />
-            <element signature="e#49544#49545#0" expanded="false" />
-            <element signature="e#52232#52233#0" expanded="false" />
-            <element signature="e#52271#52272#0" expanded="false" />
-            <element signature="e#52695#52696#0" expanded="false" />
-            <element signature="e#52734#52735#0" expanded="false" />
-            <element signature="e#59392#59393#0" expanded="false" />
-            <element signature="e#59463#59464#0" expanded="false" />
-            <element signature="e#60118#60119#0" expanded="false" />
-            <element signature="e#60190#60191#0" expanded="false" />
-            <element signature="e#61077#61078#0" expanded="false" />
-            <element signature="e#61118#61119#0" expanded="false" />
-            <element signature="e#61947#61948#0" expanded="false" />
-            <element signature="e#61988#61989#0" expanded="false" />
-            <element signature="e#63429#63430#0" expanded="false" />
-            <element signature="e#63470#63471#0" expanded="false" />
-            <element signature="e#64310#64311#0" expanded="false" />
-            <element signature="e#64355#64356#0" expanded="false" />
-            <element signature="e#65701#65702#0" expanded="false" />
-            <element signature="e#65743#65744#0" expanded="false" />
-            <element signature="e#66828#66829#0" expanded="false" />
-            <element signature="e#66870#66871#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1489,7 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1497,222 +1355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#108850#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6596#6597#0" expanded="false" />
-            <element signature="e#6640#6641#0" expanded="false" />
-            <element signature="e#8418#8419#0" expanded="false" />
-            <element signature="e#8445#8446#0" expanded="false" />
-            <element signature="e#9063#9064#0" expanded="false" />
-            <element signature="e#9107#9108#0" expanded="false" />
-            <element signature="e#11206#11207#0" expanded="false" />
-            <element signature="e#11239#11240#0" expanded="false" />
-            <element signature="e#11334#11335#0" expanded="false" />
-            <element signature="e#11377#11378#0" expanded="false" />
-            <element signature="e#11471#11472#0" expanded="false" />
-            <element signature="e#11513#11514#0" expanded="false" />
-            <element signature="e#23674#23675#0" expanded="false" />
-            <element signature="e#23725#23726#0" expanded="false" />
-            <element signature="e#23800#23801#0" expanded="false" />
-            <element signature="e#23850#23851#0" expanded="false" />
-            <element signature="e#24648#24649#0" expanded="false" />
-            <element signature="e#24702#24703#0" expanded="false" />
-            <element signature="e#24991#24992#0" expanded="false" />
-            <element signature="e#25043#25044#0" expanded="false" />
-            <element signature="e#25347#25348#0" expanded="false" />
-            <element signature="e#25401#25402#0" expanded="false" />
-            <element signature="e#25690#25691#0" expanded="false" />
-            <element signature="e#25742#25743#0" expanded="false" />
-            <element signature="e#26048#26049#0" expanded="false" />
-            <element signature="e#26104#26105#0" expanded="false" />
-            <element signature="e#26395#26396#0" expanded="false" />
-            <element signature="e#26449#26450#0" expanded="false" />
-            <element signature="e#26754#26755#0" expanded="false" />
-            <element signature="e#26809#26810#0" expanded="false" />
-            <element signature="e#27099#27100#0" expanded="false" />
-            <element signature="e#27152#27153#0" expanded="false" />
-            <element signature="e#28935#28936#0" expanded="false" />
-            <element signature="e#28975#28976#0" expanded="false" />
-            <element signature="e#29264#29265#0" expanded="false" />
-            <element signature="e#29320#29321#0" expanded="false" />
-            <element signature="e#34468#34469#0" expanded="false" />
-            <element signature="e#34526#34527#0" expanded="false" />
-            <element signature="e#34867#34868#0" expanded="false" />
-            <element signature="e#34911#34912#0" expanded="false" />
-            <element signature="e#35256#35257#0" expanded="false" />
-            <element signature="e#35301#35302#0" expanded="false" />
-            <element signature="e#36808#36809#0" expanded="false" />
-            <element signature="e#36873#36874#0" expanded="false" />
-            <element signature="e#36902#36903#0" expanded="false" />
-            <element signature="e#36952#36953#0" expanded="false" />
-            <element signature="e#36997#36998#0" expanded="false" />
-            <element signature="e#37057#37058#0" expanded="false" />
-            <element signature="e#37398#37399#0" expanded="false" />
-            <element signature="e#37442#37443#0" expanded="false" />
-            <element signature="e#37489#37490#0" expanded="false" />
-            <element signature="e#37581#37582#0" expanded="false" />
-            <element signature="e#37698#37699#0" expanded="false" />
-            <element signature="e#37763#37764#0" expanded="false" />
-            <element signature="e#38580#38581#0" expanded="false" />
-            <element signature="e#38630#38631#0" expanded="false" />
-            <element signature="e#38661#38662#0" expanded="false" />
-            <element signature="e#38705#38706#0" expanded="false" />
-            <element signature="e#39205#39206#0" expanded="false" />
-            <element signature="e#39260#39261#0" expanded="false" />
-            <element signature="e#39303#39304#0" expanded="false" />
-            <element signature="e#39367#39368#0" expanded="false" />
-            <element signature="e#41765#41766#0" expanded="false" />
-            <element signature="e#41839#41840#0" expanded="false" />
-            <element signature="e#41890#41891#0" expanded="false" />
-            <element signature="e#41946#41947#0" expanded="false" />
-            <element signature="e#41999#42000#0" expanded="false" />
-            <element signature="e#42056#42057#0" expanded="false" />
-            <element signature="e#42105#42106#0" expanded="false" />
-            <element signature="e#42167#42168#0" expanded="false" />
-            <element signature="e#42214#42215#0" expanded="false" />
-            <element signature="e#42265#42266#0" expanded="false" />
-            <element signature="e#42686#42687#0" expanded="false" />
-            <element signature="e#42729#42730#0" expanded="false" />
-            <element signature="e#44090#44091#0" expanded="false" />
-            <element signature="e#44126#44127#0" expanded="false" />
-            <element signature="e#44165#44166#0" expanded="false" />
-            <element signature="e#44207#44208#0" expanded="false" />
-            <element signature="e#44320#44321#0" expanded="false" />
-            <element signature="e#44356#44357#0" expanded="false" />
-            <element signature="e#44382#44383#0" expanded="false" />
-            <element signature="e#44430#44431#0" expanded="false" />
-            <element signature="e#44539#44540#0" expanded="false" />
-            <element signature="e#44575#44576#0" expanded="false" />
-            <element signature="e#44601#44602#0" expanded="false" />
-            <element signature="e#44647#44648#0" expanded="false" />
-            <element signature="e#44776#44777#0" expanded="false" />
-            <element signature="e#44812#44813#0" expanded="false" />
-            <element signature="e#44838#44839#0" expanded="false" />
-            <element signature="e#44884#44885#0" expanded="false" />
-            <element signature="e#45776#45777#0" expanded="false" />
-            <element signature="e#45836#45837#0" expanded="false" />
-            <element signature="e#46195#46196#0" expanded="false" />
-            <element signature="e#46244#46245#0" expanded="false" />
-            <element signature="e#48930#48931#0" expanded="false" />
-            <element signature="e#48990#48991#0" expanded="false" />
-            <element signature="e#49228#49229#0" expanded="false" />
-            <element signature="e#49304#49305#0" expanded="false" />
-            <element signature="e#52542#52543#0" expanded="false" />
-            <element signature="e#52630#52631#0" expanded="false" />
-            <element signature="e#52659#52660#0" expanded="false" />
-            <element signature="e#52741#52742#0" expanded="false" />
-            <element signature="e#52797#52798#0" expanded="false" />
-            <element signature="e#52862#52863#0" expanded="false" />
-            <element signature="e#53101#53102#0" expanded="false" />
-            <element signature="e#53166#53167#0" expanded="false" />
-            <element signature="e#53211#53212#0" expanded="false" />
-            <element signature="e#53278#53279#0" expanded="false" />
-            <element signature="e#53337#53338#0" expanded="false" />
-            <element signature="e#53396#53397#0" expanded="false" />
-            <element signature="e#53440#53441#0" expanded="false" />
-            <element signature="e#53497#53498#0" expanded="false" />
-            <element signature="e#53555#53556#0" expanded="false" />
-            <element signature="e#53613#53614#0" expanded="false" />
-            <element signature="e#53656#53657#0" expanded="false" />
-            <element signature="e#53712#53713#0" expanded="false" />
-            <element signature="e#53769#53770#0" expanded="false" />
-            <element signature="e#53826#53827#0" expanded="false" />
-            <element signature="e#53868#53869#0" expanded="false" />
-            <element signature="e#53923#53924#0" expanded="false" />
-            <element signature="e#53980#53981#0" expanded="false" />
-            <element signature="e#54037#54038#0" expanded="false" />
-            <element signature="e#54079#54080#0" expanded="false" />
-            <element signature="e#54134#54135#0" expanded="false" />
-            <element signature="e#54171#54172#0" expanded="false" />
-            <element signature="e#54218#54219#0" expanded="false" />
-            <element signature="e#54254#54255#0" expanded="false" />
-            <element signature="e#54302#54303#0" expanded="false" />
-            <element signature="e#54354#54355#0" expanded="false" />
-            <element signature="e#54409#54410#0" expanded="false" />
-            <element signature="e#54460#54461#0" expanded="false" />
-            <element signature="e#54516#54517#0" expanded="false" />
-            <element signature="e#55460#55461#0" expanded="false" />
-            <element signature="e#55508#55509#0" expanded="false" />
-            <element signature="e#55561#55562#0" expanded="false" />
-            <element signature="e#55625#55626#0" expanded="false" />
-            <element signature="e#55691#55692#0" expanded="false" />
-            <element signature="e#55757#55758#0" expanded="false" />
-            <element signature="e#55813#55814#0" expanded="false" />
-            <element signature="e#55865#55866#0" expanded="false" />
-            <element signature="e#55923#55924#0" expanded="false" />
-            <element signature="e#55976#55977#0" expanded="false" />
-            <element signature="e#58520#58521#0" expanded="false" />
-            <element signature="e#58595#58596#0" expanded="false" />
-            <element signature="e#60757#60758#0" expanded="false" />
-            <element signature="e#60807#60808#0" expanded="false" />
-            <element signature="e#60842#60843#0" expanded="false" />
-            <element signature="e#60891#60892#0" expanded="false" />
-            <element signature="e#61224#61225#0" expanded="false" />
-            <element signature="e#61274#61275#0" expanded="false" />
-            <element signature="e#61309#61310#0" expanded="false" />
-            <element signature="e#61359#61360#0" expanded="false" />
-            <element signature="e#61735#61736#0" expanded="false" />
-            <element signature="e#61789#61790#0" expanded="false" />
-            <element signature="e#61824#61825#0" expanded="false" />
-            <element signature="e#61873#61874#0" expanded="false" />
-            <element signature="e#61920#61921#0" expanded="false" />
-            <element signature="e#61963#61964#0" expanded="false" />
-            <element signature="e#62405#62406#0" expanded="false" />
-            <element signature="e#62458#62459#0" expanded="false" />
-            <element signature="e#62689#62690#0" expanded="false" />
-            <element signature="e#62761#62762#0" expanded="false" />
-            <element signature="e#63099#63100#0" expanded="false" />
-            <element signature="e#63153#63154#0" expanded="false" />
-            <element signature="e#63188#63189#0" expanded="false" />
-            <element signature="e#63238#63239#0" expanded="false" />
-            <element signature="e#63285#63286#0" expanded="false" />
-            <element signature="e#63328#63329#0" expanded="false" />
-            <element signature="e#63770#63771#0" expanded="false" />
-            <element signature="e#63823#63824#0" expanded="false" />
-            <element signature="e#63866#63867#0" expanded="false" />
-            <element signature="e#63947#63948#0" expanded="false" />
-            <element signature="e#64472#64473#0" expanded="false" />
-            <element signature="e#64517#64518#0" expanded="false" />
-            <element signature="e#66295#66296#0" expanded="false" />
-            <element signature="e#66376#66377#0" expanded="false" />
-            <element signature="e#66419#66420#0" expanded="false" />
-            <element signature="e#66500#66501#0" expanded="false" />
-            <element signature="e#66547#66548#0" expanded="false" />
-            <element signature="e#66638#66639#0" expanded="false" />
-            <element signature="e#66761#66762#0" expanded="false" />
-            <element signature="e#66852#66853#0" expanded="false" />
-            <element signature="e#68111#68112#0" expanded="false" />
-            <element signature="e#68159#68160#0" expanded="false" />
-            <element signature="e#69934#69935#0" expanded="false" />
-            <element signature="e#70025#70026#0" expanded="false" />
-            <element signature="e#70068#70069#0" expanded="false" />
-            <element signature="e#70159#70160#0" expanded="false" />
-            <element signature="e#70206#70207#0" expanded="false" />
-            <element signature="e#70287#70288#0" expanded="false" />
-            <element signature="e#73386#73387#0" expanded="false" />
-            <element signature="e#73420#73421#0" expanded="false" />
-            <element signature="e#73593#73594#0" expanded="false" />
-            <element signature="e#73629#73630#0" expanded="false" />
-            <element signature="e#74510#74511#0" expanded="false" />
-            <element signature="e#74558#74559#0" expanded="false" />
-            <element signature="e#76853#76854#0" expanded="false" />
-            <element signature="e#76905#76906#0" expanded="false" />
-            <element signature="e#76967#76968#0" expanded="false" />
-            <element signature="e#77018#77019#0" expanded="false" />
-            <element signature="e#77199#77200#0" expanded="false" />
-            <element signature="e#77248#77249#0" expanded="false" />
-            <element signature="e#77309#77310#0" expanded="false" />
-            <element signature="e#77359#77360#0" expanded="false" />
-            <element signature="e#93339#93340#0" expanded="false" />
-            <element signature="e#93413#93414#0" expanded="false" />
-            <element signature="e#96267#96268#0" expanded="false" />
-            <element signature="e#96317#96318#0" expanded="false" />
-            <element signature="e#99305#99306#0" expanded="false" />
-            <element signature="e#99351#99352#0" expanded="false" />
-            <element signature="e#105165#105166#0" expanded="false" />
-            <element signature="e#105253#105254#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1720,10 +1362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#234#235#0" expanded="false" />
-            <element signature="e#261#262#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1731,9 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1741,10 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="434" column="13" selection-start-line="434" selection-start-column="13" selection-end-line="434" selection-end-column="13" />
-          <folding>
-            <element signature="e#16227#16228#0" expanded="true" />
-            <element signature="e#16265#16266#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1752,7 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1760,11 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1960#1961#0" expanded="false" />
-            <element signature="e#2053#2054#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1772,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1780,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1788,7 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1804,7 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1812,10 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-          <folding>
-            <element signature="e#5687#5688#0" expanded="true" />
-            <element signature="e#5750#5751#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1823,7 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,7 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1839,7 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1847,15 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question213/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1863,31 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question299/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/array/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1899,22 +1478,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question218/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding>
+            <element signature="e#1949#1950#0" expanded="false" />
+            <element signature="e#2009#2010#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question218/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/array/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question218/Solution.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62030077">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
           <folding>
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#0#17839#0" expanded="false" />
+            <element signature="e#17760#17761#0" expanded="false" />
+            <element signature="e#17835#17836#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question299/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question213/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/utils/tree/Entry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/common/TreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/leecode/question99/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/leecode/question99/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46037737">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
