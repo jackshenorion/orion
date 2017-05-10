@@ -1,4 +1,4 @@
-package com.shenpinyi.hackerrank.common;
+package com.shenpinyi.common;
 
 import java.util.LinkedList;
 import java.util.Stack;

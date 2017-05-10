@@ -1,4 +1,4 @@
-package com.shenpinyi.hackerrank.common;
+package com.shenpinyi.common;
 
 /**
  * Created by jack on 27/04/2017.

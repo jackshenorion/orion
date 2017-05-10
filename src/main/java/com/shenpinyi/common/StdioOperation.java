@@ -1,4 +1,4 @@
-package com.shenpinyi.hackerrank.common;
+package com.shenpinyi.common;
 
 import java.io.IOException;
 import java.util.Scanner;
