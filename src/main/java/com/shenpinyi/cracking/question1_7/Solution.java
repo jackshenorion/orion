@@ -19,7 +19,6 @@ public class Solution {
                 }
         };
         solution.run(matrix);
-
     }
 
     private void run(int[][] matrix) {
