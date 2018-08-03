@@ -6,7 +6,7 @@ public class Solution {
         System.out.println(new Solution().run("", ""));
     }
 
-    private int run(String text, String word) {
+    public int run(String text, String word) {
         return 0;
     }
 
