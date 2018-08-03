@@ -31,7 +31,7 @@ public class Solution {
     }
 
     private void printCommandHelp() {
-        System.out.println("Please input valid command, e.g.: diff.jar 17/08/2017 17/09/2018");
+        System.out.println("Please input valid command, e.g.: java Solution 17/08/2017 17/09/2018");
         System.out.println("The valid date should between [01/01/1901, 31/12/2999]");
     }
 
