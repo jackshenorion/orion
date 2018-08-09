@@ -13,26 +13,35 @@ public class Solution {
             31, 29, 31, 30, 31, 30,
             31, 31, 30, 31, 30, 31};
 
-    private void run(String[] args) {
+    public int run(String[] args) {
         if (args.length != 2) {
             printCommandHelp();
-            return;
+            return -1;
         }
-        Optional<MyDate> dateA = getDate(args[0]);
-        Optional<MyDate> dateB = getDate(args[1]);
-        if (!dateA.isPresent() || !dateB.isPresent()) {
+        Optional<Integer> elapsedDays = getElapsedDays(args[0], args[1]);
+        if (elapsedDays.isPresent()) {
+            System.out.println(String.format("The days between %s and %s is %d", args[0], args[1], elapsedDays.get()));
+            return 1;
+        } else {
             printCommandHelp();
-            return;
+            return -1;
         }
-        int elapsedDays = dateA.get().compareTo(dateB.get()) < 0 ?
-                getDaysBetweenDates(dateA.get(), dateB.get()) :
-                getDaysBetweenDates(dateB.get(), dateA.get());
-        System.out.println(String.format("The days between %s and %s is %d", dateA.get(), dateB.get(), elapsedDays));
     }
 
-    private void printCommandHelp() {
+    public void printCommandHelp() {
         System.out.println("Please input valid command, e.g.: java Solution 17/08/2017 17/09/2018");
         System.out.println("The valid date should between [01/01/1901, 31/12/2999]");
+    }
+
+    public Optional<Integer> getElapsedDays(String day1, String day2) {
+        Optional<MyDate> dateA = getDate(day1);
+        Optional<MyDate> dateB = getDate(day2);
+        if (!dateA.isPresent() || !dateB.isPresent()) {
+            return Optional.empty();
+        }
+        return Optional.of(dateA.get().compareTo(dateB.get()) < 0 ?
+                getDaysBetweenDates(dateA.get(), dateB.get()) :
+                getDaysBetweenDates(dateB.get(), dateA.get()));
     }
 
     private Optional<MyDate> getDate(String arg) {
