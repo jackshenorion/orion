@@ -1,8 +1,7 @@
 package com.shenpinyi.other.updateArray;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Solution {
 
@@ -20,5 +19,13 @@ public class Solution {
                 a[i] = value;
             }
         }
+    }
+
+
+    public Map<String, Map<String, String>> pick(Map<String, Map<String, String>> dic, String[] sids) {
+        Set<String> set = Arrays.stream(sids).collect(Collectors.toSet());
+        return dic.entrySet().stream()
+                .filter(entry -> set.contains(entry.getValue().get("sid")))
+                .collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue()));
     }
 }

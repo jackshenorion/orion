@@ -8,7 +8,14 @@ public class Solution {
      * @param target:  An integer
      * @return: Find all unique quadruplets in the array which gives the sum of zero
      */
+
     public List<List<Integer>> fourSum(int[] numbers, int target) {
+        return null;
+    }
+
+
+
+    public List<List<Integer>> fourSumB(int[] numbers, int target) {
 
         Map<Integer, List<Pair>> sumToPairs = new HashMap<>();
         for (int i = 0; i < numbers.length - 1; i++) {
