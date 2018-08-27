@@ -10,10 +10,59 @@ public class Solution {
      */
 
     public List<List<Integer>> fourSum(int[] numbers, int target) {
-        return null;
+        if (numbers.length < 4) {
+            return Collections.EMPTY_LIST;
+        }
+        Arrays.sort(numbers);
+        // do it using k sum
+        return kSum(numbers, 0, target, 4);
     }
 
-
+    private List<List<Integer>> kSum(int[] numbers, int start, int target, int k) {
+        if (k == 2) {
+            List<List<Integer>> results = new LinkedList<>();
+            int left = start;
+            int right = numbers.length - 1;
+            while (left < right) {
+                int sum = numbers[left] + numbers[right];
+                if (left > start && numbers[left] == numbers[left - 1]) {
+                    left++;
+                    continue;
+                }
+                if (right < numbers.length - 1 && numbers[right] == numbers[right + 1]) {
+                    right--;
+                    continue;
+                }
+                if (sum == target) {
+                    List<Integer> result = new LinkedList<>();
+                    result.add(numbers[left]);
+                    result.add(numbers[right]);
+                    results.add(result);
+                    left++;
+                } else if (sum < target) {
+                    left++;
+                } else {
+                    right--;
+                }
+            }
+            return results;
+        } else {
+            int endIndex = numbers.length - k;
+            List<List<Integer>> results = new LinkedList<>();
+            for (int i = start; i <= endIndex; i++) {
+                if (i > start && numbers[i] == numbers[i - 1]) {
+                    continue;
+                }
+                int newTarget = target - numbers[i];
+                List<List<Integer>> subResults = kSum(numbers, i + 1, newTarget, k - 1);
+                for (List<Integer> subResult : subResults) {
+                    subResult.add(0, numbers[i]);
+                }
+                results.addAll(subResults);
+            }
+            return results;
+        }
+    }
 
     public List<List<Integer>> fourSumB(int[] numbers, int target) {
 

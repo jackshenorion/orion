@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d022cd9d-4c99-466c-88b5-4b6bdeb0b101" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question138/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question139/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question56/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question57/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question59/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/questionTwoSumClosest/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question138/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question139/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question56/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question57/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question59/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/questionTwoSumClosest/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question148/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question31/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question49/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question148/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question31/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question49/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -93,50 +87,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question56/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="440">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/questionTwoSumClosest/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question31/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="460">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question57/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question49/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1931#1932#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question59/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="400">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question148/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="320">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question148/SolutionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question49/SolutionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question31/SolutionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -144,8 +152,8 @@
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -164,19 +172,10 @@
         </entry>
       </file>
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question57/SolutionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/other/updateArray/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/questionTwoSumClosest/SolutionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="567">
+              <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -501,12 +500,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/tree/question97/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/tree/TreeUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/tree/question93/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/tree/question88/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/tree/question94/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/concurrency/memoize/Memoizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/concurrency/memoize/PrimeCallable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/concurrency/memoize/PrimeChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/concurrency/memoize/Solution.java" />
@@ -530,8 +523,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question42/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question43/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question43/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/other/updateArray/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/other/updateArray/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question44/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question44/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question80/Solution.java" />
@@ -550,8 +541,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question57/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question59/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question59/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/other/updateArray/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/other/updateArray/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question31/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question31/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question49/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question49/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question148/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question148/Solution.java" />
       </list>
     </option>
   </component>
@@ -636,7 +635,66 @@
               <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
               <item name="lintcode" type="462c0819:PsiDirectoryNode" />
               <item name="arraynumbers" type="462c0819:PsiDirectoryNode" />
-              <item name="question58" type="462c0819:PsiDirectoryNode" />
+              <item name="question148" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="updateArray" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="updateArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -661,11 +719,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.shenpinyi.lintcode.arraynumbers.question148" />
+      <recent name="com.shenpinyi.lintcode.arraynumbers.question49" />
+      <recent name="com.shenpinyi.lintcode.arraynumbers.question31" />
+      <recent name="com.shenpinyi.other.updateArray" />
       <recent name="com.shenpinyi.lintcode.arraynumbers.question58" />
-      <recent name="com.shenpinyi.lintcode.arraynumbers.question59" />
-      <recent name="com.shenpinyi.lintcode.arraynumbers.question57" />
-      <recent name="com.shenpinyi.lintcode.arraynumbers.questionTwoSumClosest" />
-      <recent name="com.shenpinyi.lintcode.arraynumbers.question56" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shenpinyi.concurrency" />
@@ -690,26 +748,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.fourSum">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SolutionTest.fourSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question58.*" />
+          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question148.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question58" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question58.SolutionTest" />
-      <option name="METHOD_NAME" value="fourSum" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question148" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question148.SolutionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.partitionArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question31" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question31.SolutionTest" />
+      <option name="METHOD_NAME" value="partitionArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -720,19 +801,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.threeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.sortColors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question57.*" />
+          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question148.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question57" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question57.SolutionTest" />
-      <option name="METHOD_NAME" value="threeSum" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question148" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question148.SolutionTest" />
+      <option name="METHOD_NAME" value="sortColors" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -743,19 +824,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.threeSumClosest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.sortColors1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question59.*" />
+          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question148.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question59" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question59.SolutionTest" />
-      <option name="METHOD_NAME" value="threeSumClosest" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question148" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question148.SolutionTest" />
+      <option name="METHOD_NAME" value="sortColors1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -766,42 +847,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.twoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.sortLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithms_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question56.*" />
+          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.question49.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question56" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question56.SolutionTest" />
-      <option name="METHOD_NAME" value="twoSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SolutionTest.twoSumCloset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shenpinyi.lintcode.arraynumbers.questionTwoSumClosest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.questionTwoSumClosest" />
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.questionTwoSumClosest.SolutionTest" />
-      <option name="METHOD_NAME" value="twoSumCloset" />
+      <option name="PACKAGE_NAME" value="com.shenpinyi.lintcode.arraynumbers.question49" />
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.lintcode.arraynumbers.question49.SolutionTest" />
+      <option name="METHOD_NAME" value="sortLetters" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -874,19 +932,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SolutionTest.twoSum" />
-      <item itemvalue="JUnit.SolutionTest.twoSumCloset" />
-      <item itemvalue="JUnit.SolutionTest.threeSum" />
-      <item itemvalue="JUnit.SolutionTest.threeSumClosest" />
-      <item itemvalue="JUnit.SolutionTest.fourSum" />
+      <item itemvalue="JUnit.SolutionTest.partitionArray" />
+      <item itemvalue="JUnit.SolutionTest.sortLetters" />
+      <item itemvalue="JUnit.SolutionTest.sortColors" />
+      <item itemvalue="JUnit.SolutionTest.sortColors1" />
+      <item itemvalue="JUnit.SolutionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.fourSum" />
-        <item itemvalue="JUnit.SolutionTest.threeSumClosest" />
-        <item itemvalue="JUnit.SolutionTest.threeSum" />
-        <item itemvalue="JUnit.SolutionTest.twoSumCloset" />
-        <item itemvalue="JUnit.SolutionTest.twoSum" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.sortColors1" />
+        <item itemvalue="JUnit.SolutionTest.sortColors" />
+        <item itemvalue="JUnit.SolutionTest.sortLetters" />
+        <item itemvalue="JUnit.SolutionTest.partitionArray" />
       </list>
     </recent_temporary>
   </component>
@@ -985,39 +1043,53 @@
       <option name="project" value="LOCAL" />
       <updated>1534749993797</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add few questions">
+      <created>1535010052391</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1535010052391</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add few questions">
+      <created>1535094742232</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1535094742232</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_threeSum - 2018.08.23 at 16h 01m 18s.xml">
-      <configuration name="SolutionTest.threeSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortLetters - 2018.08.27 at 10h 48m 44s.xml">
+      <configuration name="SolutionTest.sortLetters" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_threeSum - 2018.08.23 at 16h 02m 20s.xml">
-      <configuration name="SolutionTest.threeSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortColors - 2018.08.27 at 11h 14m 26s.xml">
+      <configuration name="SolutionTest.sortColors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_threeSum - 2018.08.23 at 16h 13m 08s.xml">
-      <configuration name="SolutionTest.threeSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortColors - 2018.08.27 at 11h 17m 08s.xml">
+      <configuration name="SolutionTest.sortColors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_threeSumClosest - 2018.08.23 at 16h 44m 20s.xml">
-      <configuration name="SolutionTest.threeSumClosest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortColors - 2018.08.27 at 11h 17m 12s.xml">
+      <configuration name="SolutionTest.sortColors" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_threeSumClosest - 2018.08.23 at 16h 46m 23s.xml">
-      <configuration name="SolutionTest.threeSumClosest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortColors1 - 2018.08.27 at 11h 18m 58s.xml">
+      <configuration name="SolutionTest.sortColors1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_fourSum - 2018.08.23 at 17h 29m 29s.xml">
-      <configuration name="SolutionTest.fourSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortColors1 - 2018.08.27 at 11h 24m 21s.xml">
+      <configuration name="SolutionTest.sortColors1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_fourSum - 2018.08.23 at 17h 30m 45s.xml">
-      <configuration name="SolutionTest.fourSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest_sortColors1 - 2018.08.27 at 11h 24m 24s.xml">
+      <configuration name="SolutionTest.sortColors1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_fourSum - 2018.08.23 at 17h 31m 46s.xml">
-      <configuration name="SolutionTest.fourSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2018.08.27 at 11h 24m 31s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_fourSum - 2018.08.23 at 17h 31m 52s.xml">
-      <configuration name="SolutionTest.fourSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2018.08.27 at 11h 27m 10s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_fourSum - 2018.08.23 at 17h 37m 59s.xml">
-      <configuration name="SolutionTest.fourSum" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2018.08.27 at 11h 46m 30s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1026,14 +1098,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48847377" weight="0.32699922" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4872814" weight="0.32699922" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50874406" side_tool="true" visible="true" weight="0.39904988" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24046105" side_tool="true" visible="true" weight="0.36975455" />
       <window_info anchor="right" id="PsiViewer" order="3" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7623212" weight="0.32699922" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.75953895" visible="true" weight="0.36975455" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32858273" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.3287858" />
       <window_info id="Capture Tool" order="2" />
@@ -1044,7 +1116,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49125597" visible="true" weight="0.39904988" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4900636" weight="0.39904988" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1102,57 +1174,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java</url>
-          <line>39</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/concurrency/memoize/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/concurrency/queue/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lorica/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lorica/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/merge_sorted_array/SolutionBTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1290,23 +1320,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/other/updateArray/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/other/updateArray/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,31 +1477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question59/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question59/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -1500,10 +1488,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question59/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/other/updateArray/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/other/updateArray/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question59/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question58/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question58/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="440">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question31/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question31/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question49/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question49/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question148/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/arraynumbers/question148/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
         </state>
       </provider>
     </entry>
