@@ -1,4 +1,6 @@
-package com.shenpinyi.lintcode.tree;
+package com.shenpinyi.lintcode.binarytree;
+
+import com.shenpinyi.lintcode.binarytree.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,7 +1,7 @@
-package com.shenpinyi.lintcode.tree.question94;
+package com.shenpinyi.lintcode.binarytree.question94;
 
-import com.shenpinyi.lintcode.tree.TreeNode;
-import com.shenpinyi.lintcode.tree.TreeUtils;
+import com.shenpinyi.lintcode.binarytree.TreeNode;
+import com.shenpinyi.lintcode.binarytree.TreeUtils;
 
 public class Solution {
 

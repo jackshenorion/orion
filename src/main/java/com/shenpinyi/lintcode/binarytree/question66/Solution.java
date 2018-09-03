@@ -1,9 +1,11 @@
-package com.shenpinyi.lintcode.tree.question66;
+package com.shenpinyi.lintcode.binarytree.question66;
 
-import com.shenpinyi.lintcode.tree.TreeNode;
+import com.shenpinyi.lintcode.binarytree.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Definition of TreeNode:
@@ -39,7 +41,7 @@ public class Solution {
      * @param root: A Tree
      * @return: Preorder in ArrayList which contains node values.
      */
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversalB(TreeNode root) {
         List<Integer> path = new ArrayList<>();
         traverseHelper(root, path);
         return path;
@@ -52,6 +54,26 @@ public class Solution {
         path.add(node.val);
         traverseHelper(node.left, path);
         traverseHelper(node.right, path);
+    }
+
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> path = new ArrayList<>();
+        if (root == null) {
+            return path;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.empty()) {
+            TreeNode current = stack.pop();
+            path.add(current.val);
+            if (current.right != null) {
+                stack.push(current.right);
+            }
+            if (current.left != null) {
+                stack.push(current.left);
+            }
+        }
+        return path;
     }
 
 }

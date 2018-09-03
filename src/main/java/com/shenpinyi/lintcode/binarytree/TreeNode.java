@@ -1,4 +1,4 @@
-package com.shenpinyi.lintcode.tree;
+package com.shenpinyi.lintcode.binarytree;
 
 public class TreeNode {
     public int val;
