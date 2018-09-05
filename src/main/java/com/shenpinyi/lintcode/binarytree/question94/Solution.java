@@ -16,6 +16,29 @@ public class Solution {
      */
     public int maxPathSum(TreeNode root) {
         if (root == null) {
+            return Integer.MIN_VALUE;
+        }
+        long leftLag = maxLag(root.left);
+        long rightLag = maxLag(root.right);
+        int current = root.val;
+        long thisMax = Math.max(leftLag + current + rightLag, Math.max(leftLag + current, Math.max(rightLag + current, current)));
+        int leftMax = maxPathSum(root.left);
+        int rightMax = maxPathSum(root.right);
+        return (int) Math.max(thisMax, Math.max(leftMax, rightMax));
+    }
+
+    public long maxLag(TreeNode node) {
+        if (node == null) {
+            return Integer.MIN_VALUE;
+        }
+        long left = maxLag(node.left);
+        long right = maxLag(node.right);
+        int current = node.val;
+        return Math.max(current, Math.max(current + left, current + right));
+    }
+
+    public int maxPathSumB(TreeNode root) {
+        if (root == null) {
             return 0;
         }
         int maxSum = Integer.MIN_VALUE;
