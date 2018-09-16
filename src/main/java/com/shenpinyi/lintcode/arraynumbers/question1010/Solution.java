@@ -1,4 +1,4 @@
-package com.shenpinyi.lintcode.question1010;
+package com.shenpinyi.lintcode.arraynumbers.question1010;
 
 public class Solution {
 
