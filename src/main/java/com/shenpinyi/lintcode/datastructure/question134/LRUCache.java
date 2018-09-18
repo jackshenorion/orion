@@ -8,10 +8,12 @@ public class LRUCache {
      * @param capacity: An integer
      */
     class Node {
+        int key;
         int val;
         Node next = null;
         Node prev = null;
-        Node(int v) {
+        Node(int k, int v) {
+            this.key = k;
             this.val = v;
         }
     }
@@ -22,8 +24,8 @@ public class LRUCache {
     private Map<Integer, Node> map;
 
     public LRUCache(int capacity) {
-        this.dummyHead = new Node(0);
-        this.dummyTail = new Node(0);
+        this.dummyHead = new Node(0, 0);
+        this.dummyTail = new Node(0, 0);
         this.dummyHead.next = this.dummyTail;
         this.dummyTail.prev = this.dummyHead;
         this.capacity = capacity;
@@ -46,9 +48,7 @@ public class LRUCache {
 
     private void removeNode(Node node) {
         node.prev.next = node.next;
-        if (node.next != null) {
-            node.next.prev = node.prev;
-        }
+        node.next.prev = node.prev;
         node.next = null;
         node.prev = null;
     }
@@ -61,7 +61,7 @@ public class LRUCache {
     private void removeLast() {
         Node node = this.dummyTail.prev;
         removeNode(node);
-        map.remove(node.val);
+        map.remove(node.key);
     }
 
     /*
@@ -71,6 +71,7 @@ public class LRUCache {
      */
     public void set(int key, int value) {
         if (this.get(key) != -1) {
+            map.get(key).val = value;
             return;
         }
         count++;
@@ -78,7 +79,7 @@ public class LRUCache {
             removeLast();
             count--;
         }
-        Node node = new Node(value);
+        Node node = new Node(key, value);
         map.put(key, node);
         addNode(node);
     }
