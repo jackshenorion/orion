@@ -13,6 +13,46 @@ public class Solution {
             return Collections.EMPTY_LIST;
         }
         Arrays.sort(numbers);
+
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (int i = 0; i < numbers.length - 2; i++) {
+            if (i > 0 && numbers[i] == numbers[i - 1]) {
+                continue;
+            }
+            int first = numbers[i];
+            int target = -first;
+            int secondIndex = i + 1;
+            int thirdIndex = numbers.length - 1;
+            while (secondIndex < thirdIndex) {
+                if (secondIndex > i + 1 && numbers[secondIndex] == numbers[secondIndex - 1]) {
+                    secondIndex++;
+                    continue;
+                }
+                if (thirdIndex < numbers.length - 1 && numbers[thirdIndex] == numbers[thirdIndex + 1]) {
+                    thirdIndex--;
+                    continue;
+                }
+                int sum = numbers[secondIndex] + numbers[thirdIndex];
+                if (sum == target) {
+                    result.add(Arrays.asList(first, numbers[secondIndex], numbers[thirdIndex]));
+                    secondIndex++;
+                    thirdIndex--;
+                } else if (sum < target) {
+                    secondIndex ++;
+                } else {
+                    thirdIndex --;
+                }
+            }
+        }
+        return result;
+    }
+
+    public List<List<Integer>> threeSumB(int[] numbers) {
+        if (numbers == null || numbers.length < 3) {
+            return Collections.EMPTY_LIST;
+        }
+        Arrays.sort(numbers);
         List<List<Integer>> result = new ArrayList<>();
         Set<Pair> pairs = new HashSet<>();
         for (int i = 0; i < numbers.length - 2; i++) {
