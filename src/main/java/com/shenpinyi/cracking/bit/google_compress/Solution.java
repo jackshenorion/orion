@@ -1,4 +1,4 @@
-package com.shenpinyi.cracking.bit.quesiton5_1;
+package com.shenpinyi.cracking.bit.google_compress;
 
 public class Solution {
 
