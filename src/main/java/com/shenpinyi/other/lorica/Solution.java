@@ -1,4 +1,4 @@
-package com.shenpinyi.lorica;
+package com.shenpinyi.other.lorica;
 
 import java.util.Optional;
 

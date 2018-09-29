@@ -1,4 +1,4 @@
-package com.shenpinyi.lorica;
+package com.shenpinyi.other.lorica;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;
