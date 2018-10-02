@@ -8,6 +8,48 @@ public class Solution {
      * @return: An integer
      */
     public int findPosition(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+        int start = 0;
+        int end = nums.length - 1;
+        while (start + 1 < end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] > target) {
+                end = mid;
+            } else {
+                start = mid;
+            }
+        }
+
+        if (nums[start] == target) {
+            return start;
+        }
+        if (nums[end] == target) {
+            return end;
+        }
+        return -1;
+    }
+
+    public int findPositionA(int[] nums, int target) {
+        int start = -1;
+        int end = nums.length;
+        while (start + 1 < end) {
+            int mid = start + (end - start) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] > target) {
+                end = mid;
+            } else {
+                start = mid;
+            }
+        }
+        return -1;
+    }
+
+    public int findPositionB(int[] nums, int target) {
         if (nums == null || nums.length < 1) {
             return -1;
         }
