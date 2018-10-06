@@ -1,5 +1,8 @@
 package com.shenpinyi.algorithms.chapter22;
 
+import com.shenpinyi.algorithms.elementraygraph_22.Edge;
+import com.shenpinyi.algorithms.elementraygraph_22.GraphBuilder;
+import com.shenpinyi.algorithms.elementraygraph_22.Vertex;
 import org.junit.Test;
 
 import java.util.Arrays;

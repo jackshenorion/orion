@@ -1,10 +1,9 @@
 package com.shenpinyi.algorithms.chapter22;
 
+import com.shenpinyi.algorithms.elementraygraph_22.*;
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by sj on 2017/3/5.
@@ -12,7 +11,7 @@ import static org.junit.Assert.*;
 public class AdjacentTableGraphTest {
     @Test
     public void getBFS() throws Exception {
-        AdjacentTableGraph<String, Integer>  graph = new GraphBuilder<String, Integer>()
+        AdjacentTableGraph<String, Integer> graph = new GraphBuilder<String, Integer>()
                 .setVertexs(
                         Arrays.asList(
                                 new Vertex<String>().setValue("0"),

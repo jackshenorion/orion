@@ -1,6 +1,5 @@
 package com.shenpinyi.microsoft.question015;
 
-import com.shenpinyi.algorithms.chapter22.Vertex;
 import com.shenpinyi.utils.tree.BinaryTree;
 import com.shenpinyi.utils.tree.Entry;
 

@@ -1,1 +1,9 @@
 /target/
+.gradle/
+.idea/
+.idea/libraries/Gradle__commons_codec_commons_codec_1_10.xml
+.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml
+.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_6.xml
+.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_10.xml
+src/main/java/com/shenpinyi/algorithms/elementraygraph_22/
+src/main/java/com/shenpinyi/cracking/bit/compress/

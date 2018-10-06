@@ -1,13 +1,12 @@
 package com.shenpinyi.algorithms.chapter22.excersice2216;
 
-import com.shenpinyi.algorithms.chapter22.Edge;
-import com.shenpinyi.algorithms.chapter22.GraphBuilder;
-import com.shenpinyi.algorithms.chapter22.Vertex;
+import com.shenpinyi.algorithms.elementraygraph_22.Edge;
+import com.shenpinyi.algorithms.elementraygraph_22.GraphBuilder;
+import com.shenpinyi.algorithms.elementraygraph_22.Vertex;
+import com.shenpinyi.algorithms.elementraygraph_22.excersice2216.UniversalSinkFinder;
 import org.junit.Test;
 
 import java.util.Arrays;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by sj on 2017/3/5.
