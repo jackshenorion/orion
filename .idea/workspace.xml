@@ -1,26 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d022cd9d-4c99-466c-88b5-4b6bdeb0b101" name="Default" comment="add few more questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/common_1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/common_detect_loop/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/AdjListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/AdjMatrixGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/BfsResultList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/BfsResultMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/DfsResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_1_1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_1_3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_1_4/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_1_6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_2_1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_3_6/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_3_6/SolutionB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_4_5/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_4_x_topo/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Algorithms_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Algorithms_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Algorithms_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Algorithms_test.iml" afterDir="false" />
+    <list default="true" id="d022cd9d-4c99-466c-88b5-4b6bdeb0b101" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/sorting/mergesort/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,15 +68,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BfsResultMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/BfsResultMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_3_6/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,14 +128,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_4_5/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+            <state relative-caret-position="366">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/sorting/mergesort/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -577,7 +559,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question627/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/arraynumbers/question637/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/shenpinyi/lintcode/binarysearch/question1219/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/binarysearch/question457/Solution.java" />
@@ -628,6 +609,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/datastructure/graph/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_4_5/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_4_x_topo/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/sorting/mergesort/Solution.java" />
       </list>
     </option>
   </component>
@@ -696,29 +678,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="elementraygraph_22" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="elementraygraph_22" type="462c0819:PsiDirectoryNode" />
-              <item name="question22_4_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shenpinyi" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="elementraygraph_22" type="462c0819:PsiDirectoryNode" />
-              <item name="question22_4_x_topo" type="462c0819:PsiDirectoryNode" />
+              <item name="mergesort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -799,20 +759,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (3)">
+  <component name="RunManager" selected="Application.Solution (4)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.algorithms.elementraygraph_22.question22_3_6.Solution" />
-      <module name="Algorithms_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shenpinyi.algorithms.elementraygraph_22.question22_3_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shenpinyi.algorithms.elementraygraph_22.question22_4_x_topo.Solution" />
@@ -832,6 +781,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shenpinyi.algorithms.elementraygraph_22.question22_4_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shenpinyi.algorithms.sorting.mergesort.Solution" />
+      <module name="Algorithms_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shenpinyi.algorithms.sorting.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -946,19 +906,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.SolutionB" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SolutionB" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1197,7 +1157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538789083764</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add few more questions">
+      <created>1539118392481</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1539118392481</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1238,7 +1205,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="sbt" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2732475" side_tool="true" visible="true" weight="0.26875854" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2739628" side_tool="true" visible="true" weight="0.26875854" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -1248,12 +1215,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48354793" weight="0.3983629" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.46065807" weight="0.3233288" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4599428" weight="0.3233288" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="PsiViewer" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7267525" visible="true" weight="0.26875854" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7260372" visible="true" weight="0.26875854" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49928468" weight="0.32742155" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.3287858" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
@@ -1362,7 +1329,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/datastructure/question642/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/lintcode/datastructure/question642/MovingAverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1773,11 +1739,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/elementraygraph_22/question22_4_5/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+        <state relative-caret-position="366">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shenpinyi/algorithms/sorting/mergesort/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
